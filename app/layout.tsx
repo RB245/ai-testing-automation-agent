@@ -1,7 +1,7 @@
 import { ClerkProvider, SignInButton, SignUpButton, Show, UserButton } from '@clerk/nextjs';
 import "./globals.css";
 import type { Metadata } from "next";
-import Provider from './sign-up/provider';
+import Provider from './provider';
 
 export const metadata: Metadata = {
   title: "Next.js Premium Startup Boilerplate",
